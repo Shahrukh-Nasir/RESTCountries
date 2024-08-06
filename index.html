@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h2 class="title">
+               <a href="/">
+                   Where in the world?
+            </a>
+                
+            </h2>
+            <p class="dark-btn"> <i class="fa-solid fa-moon icon"></i>Dark mode</p>
+        </div>
+    </header>
+    <main>
+        <div class="search-filter">
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass icon"></i>
+                <input type="text" id="search" placeholder="Search for a country...">
+            </div>
+            <select class="filter">
+                <option hidden >Filter by Region</option>
+                <option value="Asia" >Asia</option>
+                <option value="Europe" >Europe</option>
+                <option value="America" >America</option>
+                <option value="Oceania" >Oceania</option>
+            </select>
+        </div>
+     <div class="countries-container">
+     </div>
+    </main>
+    <script  src="script.js"></script>
+    <script src="https://kit.fontawesome.com/2cbe59a1ea.js" crossorigin="anonymous">
+
+    </script>
+</body>
+</html>
